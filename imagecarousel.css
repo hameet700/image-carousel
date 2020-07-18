@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.imageslider {
+  display: flex;
+}
+.imagecarousel {
+  overflow: hidden;
+  position: relative;
+}
+#nxtbtn {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  font-size: 50px;
+  color: lightslategrey;
+  z-index: 10;
+}
+#prevbtn {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  font-size: 50px;
+  color: lightslategrey;
+  z-index: 10;
+}
